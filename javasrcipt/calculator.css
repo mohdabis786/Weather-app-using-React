@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    height:670px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right:100px
+}
+
+.boxes{
+    height:300px;
+    width:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+}
+
+.box{
+    height:100px;
+    width:100px;
+}
+.calculation{
+    height: 300px;
+    width:120px;
+    margin-left: 10px;
+}
+.calc{
+    height:100px;
+    width:100px;
+
+}
+body{
+    text-align: center;
+}
+#para{
+    height:50px;
+    width:290px;
+    font-size: 40px;
+    position: relative;
+    bottom:200px;
+    left:510px;
+    
+}

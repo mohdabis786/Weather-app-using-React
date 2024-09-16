@@ -1,0 +1,3 @@
+function Lottery({n,winningSum}){
+
+}

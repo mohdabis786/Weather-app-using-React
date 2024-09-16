@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="function.css">
+
+
+
+
+
+    <script>
+        // function display()
+        // {
+        //     alert("good morning");
+        // }
+        // function display1()
+        // {
+        //     alert("good evening");
+        // }
+
+        // function sumfunc()
+        // {
+        //    let x=20;
+        //    let y=25;
+        //    let z=x+y;
+        //    document.write("the sum of x and y is "+z)
+        // }
+
+        // function decfunc()
+        // {
+        //    let x=20;
+        //    let y=25;
+        //    let z=x-y;
+        //    document.write("the sum of x and y is "+z)
+        // }
+
+        // function multfunc()
+        // {
+        //    let x=20;
+        //    let y=25;
+        //    let z=x*y;
+        //    document.write("the sum of x and y is "+z)
+        // }
+
+        // function display()
+        // {
+        //     let i=document.getElementById("n1").value;
+        //     let i1=document.getElementById("n2").value;
+        //     let res=parseInt(i)+parseInt(i1)
+        //     document.getElementById("re").innerHTML=res;
+        // }
+
+
+        // function display()
+        // {
+        //     let i=document.getElementById("n1").value;
+        //     let i1=document.getElementById("n2").value;
+        //     let res=parseInt(i)+parseInt(i1)
+        //     document.getElementById("re").value=res;
+        // }
+
+        function display()
+        {
+            let name=document.getElementById("inp").value;
+            let price=document.getElementById("pr1").value;
+            let qty=document.getElementById("qt1");
+            let totalAmount=price*qty;
+            // document.getElementById("totalAmount").innerHTML=name+"total amount is :"+totalAmount+"of"+qty+"mobile"
+            document.write("the total price is "+totalAmount)
+        }
+
+
+       
+    </script>
+</head>
+<body>
+    <!-- <button onclick="display()">good morning</button>
+    <button onclick="display1()">good evening</button>
+    <br> -->
+    <!-- <button onclick="sumfunc()">sum</button>
+    <button onclick="decfunc()">decrease</button>
+    <button onclick="multfunc()">multiply</button> -->
+    <!-- <center>
+        <h1>basic calculation</h1>
+        <br>
+        number1<input type="text" id="n1"><br><br>
+        number2<input type="text" id="n2"><br><br>
+        <button onclick="display()">+</button>
+        <br>
+        <p>result is =</p>
+        <p id="re"></p>
+
+    </center> -->
+
+    <!-- <center>
+        <h1>basic calculation</h1>
+        <br>
+        number1<input type="text" id="n1"><br><br>
+        number2<input type="text" id="n2"><br><br>
+        result<input type="text" id="re"><br><br>
+        <button onclick="display()">+</button>
+        <br>
+        
+
+    </center> -->
+
+    <div class="div1">
+
+
+    <div class="container">
+        <p id="totalAmount">total amount is =</p>
+        
+        <input type="text" placeholder="Enter customer name" id="inp">
+        <br><br>
+        <select name="city" id="id1" >
+            <option>iphone 13</option>
+            <option>iphone 14 pro</option>
+            <option>iphone 14 pro max</option>
+            <option>iphone 15 pro</option>
+        </select>
+        <br><br>
+        <input type="text" placeholder="Enter a price" id="pr1">
+        <br><br>
+        <select name="quantity" id="qt1">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select>
+        <br><br>
+        <button id="bt1" onclick="display()">calculation</button>
+        
+        
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+</body>
+</html>
+
+
+

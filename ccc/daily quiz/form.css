@@ -1,0 +1,28 @@
+.box{
+    height:300px;
+    width:300px;
+    position: relative;
+    left:600px;
+    top:200px;
+    color:white;
+    background-color: black;
+    
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: cadetblue;
+}
+button{
+    height:30px;
+    width:90px;
+    color:white;
+    background-color: rgb(26, 204, 26);
+    position: relative;
+    left:90px;
+    top:20px;
+    border:2px solid white;
+    
+}
+

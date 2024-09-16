@@ -1,0 +1,282 @@
+.header{
+    height:140px;
+    border:1px solid black;
+    background-image: url("th\ \(1\).jpeg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-style: italic;
+    color:rgb(42, 50, 165)
+}
+
+.navbar{
+    height:70px;
+    border:1px solid black;
+   
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+}
+ul{
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+}
+ul li{
+    display: inline-block;
+    position: relative;
+}
+
+ul li a{
+    display: block;
+    padding: 25px 25px;
+    font-size: 16px;
+    color:#fff;
+    text-decoration: none;
+    text-align: center;
+}
+
+ul li ul.dropdown li {
+    display: block;
+    background: #333;
+    margin:2px 9px;
+
+}
+
+ul li ul.dropdown {
+    width: auto;
+    background: #00FF8C;
+    position: absolute;
+    z-index: 999;
+    display: none;
+
+}
+
+
+ul li a:hover{
+    background: #222;
+}
+ul li:hover ul.dropdown{
+    display: block;
+}
+
+.main-cont{
+    height:750px;
+    width:1200px;
+    border:1px solid black;
+    margin-top: 30px;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.div1{
+    height:220px;
+    width:350px;
+    border:1px solid black;
+    background-image: url("mob1.jpeg");
+    background-size: cover;
+}
+.div2{
+    height:220px;
+    width:350px;
+    border:1px solid black;
+    background-image: url("mob2.jpeg");
+    background-size: cover;
+
+}
+.div3{
+    height:220px;
+    width:350px;
+    border:1px solid black;
+    background-image: url("mob3.jpeg");
+    background-size: cover;
+}
+.div4{
+    height:220px;
+    width:350px;
+    border:1px solid black;
+    background-image: url("mob4.jpeg");
+    background-size: cover;
+}
+.div5{
+    height:220px;
+    width:350px;
+    border:1px solid black;
+    background-image: url("mob5.jpeg");
+    background-size: cover;
+}
+.div6{
+    height:220px;
+    width:350px;
+    border:1px solid black;
+    background-image: url("mob2.jpeg");
+    background-size: cover;
+}
+.div7{
+    height:220px;
+    width:350px;
+    border:1px solid black;
+    background-image: url("mob1.jpeg");
+    background-size: cover;
+}
+.div8{
+    height:220px;
+    width:350px;
+    border:1px solid black;
+    background-image: url("mob4.jpeg");
+    background-size: cover;
+}
+.div9{
+    height:220px;
+    width:350px;
+    border:1px solid black;
+    background-image: url("mob5.jpeg");
+    background-size: cover;
+}
+
+#id1{
+    height:100px;
+    width:150px;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    display: none;
+    position: absolute;
+}
+#id2{
+    height:100px;
+    width:150px;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    display: none;
+    position: absolute;
+}
+#id3{
+    height:100px;
+    width:150px;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    display: none;
+    position: absolute;
+}
+#id4{
+    height:100px;
+    width:150px;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    display: none;
+    position: absolute;
+}
+#id5{
+    height:100px;
+    width:150px;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    display: none;
+    position: absolute;
+}
+#id6{
+    height:100px;
+    width:150px;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    display: none;
+    position: absolute;
+}
+#id7{
+    height:100px;
+    width:150px;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    display: none;
+    position: absolute;
+}
+#id8{
+    height:100px;
+    width:150px;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    display: none;
+    position: absolute;
+}
+#id9{
+    height:100px;
+    width:150px;
+    border:1px solid black;
+    background-color: white;
+    color:black;
+    display: none;
+    position: absolute;
+}
+#parentdiv2:hover #id2 {
+    display: block;
+
+}
+#parentdiv3:hover #id3 {
+    display: block;
+
+}
+#parentdiv4:hover #id4 {
+    display: block;
+
+}
+#parentdiv5:hover #id5 {
+    display: block;
+
+}
+#parentdiv6:hover #id6 {
+    display: block;
+
+}
+#parentdiv7:hover #id7 {
+    display: block;
+
+}
+#parentdiv8:hover #id8 {
+    display: block;
+
+}
+#parentdiv9:hover #id9 {
+    display: block;
+
+}
+.main-cont{
+    background-color: grey;
+}
+
+.foot-panel{
+    height:500px;
+    border:1px solid black;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #222;
+}
+ol{
+    list-style-type: none;
+    color:white;
+
+}
+body{
+    background-color: #1F3044;
+}
+
+
+

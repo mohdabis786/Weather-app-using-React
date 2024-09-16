@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #A0AECD;
+        }
+        div.d1{
+            position: relative;
+            display:inline-block;
+            position: relative;
+            left:1150px;
+            top:15px;
+        
+        }
+        div.d2{
+            display: none;
+            position:absolute;
+            background-color:cadetblue;
+            min-width:120px;
+            padding:12px 16px;
+            margin-top: 10px;
+            border:5px solid blue;
+        }
+        .d1:hover .d2{
+            display:block;
+        }
+        ul{
+            list-style-type: none;
+        }
+        button{
+            height:30px;
+            width:70px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: bold;
+            border:2px solid white;
+            
+        }
+        #bt1{
+            height:30px;
+            width:100px;
+            background-color: #24a0ed;
+            color:white;
+            position: relative;
+            left:1200px;
+            top:15px;
+
+        }
+        .container{
+            height:80px;
+            width:1470px;
+            border:1px solid black;
+        }
+        .box1{
+            height:500px;
+            width:600px;
+            border:1px solid black;
+        }
+       select{
+        width:180px;
+        height:30px;
+        
+       }
+       table{
+        position: relative;
+        left:170px;
+        top:100px;
+       }
+       input{
+        height:30px;
+        width:175px;
+       }
+       .box1{
+        background-color: cornflowerblue;
+       }
+       .container{
+        background-color: #0f1111;
+       }
+    </style>
+ 
+</head>
+<body>
+    <div class="container">
+    <div class="d1">
+        <button style="background-color: rgb(37, 163, 37); color:white;">Login</button>
+    
+    <div class="d2">
+        
+        <ul>
+            <li><a href="" style="text-decoration: none;">Admin</a></li>
+            <li><a href=""style="text-decoration: none;"> User</a></li>           
+        </ul>
+       
+    </div>
+    </div>
+    <button id="bt1">New User</button>
+    </div>
+    <br>
+    <div class="box1">
+       <table>
+        <tr>
+            <td>Candidate Name</td>
+            <td>
+                <input type="text"placeholder="enter candidate name">
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>Qualification</td>
+            <td>
+                <select>
+                    <option>B.tech</option>
+                    <option>B.com</option>
+                    <option>MBA</option>
+                    <option>BCA</option>
+                </select>
+            </td>
+        </tr>
+        <br><br>
+        <tr>
+            <td>Apply Course</td>
+            <td>
+                <select>
+                    <option >Python full stack</option>
+                    <option >Java full stack</option>
+                    <option >Django</option>
+                    <option>Data Science</option>
+                </select>
+            </td>
+        </tr>
+       </table>
+
+    </div>
+    
+</body>
+</html>

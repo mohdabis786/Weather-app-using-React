@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <input type="number" id="tx1">
+    <br><br>
+    <input type="number" id="tx2">
+    <br><br>
+    <button id="btn">click</button>
+
+
+
+
+    <script>
+        // var pp="12345";
+        // for(var i=1;i<=10;i++){
+        //    if(i%2==0){
+        //     document.getElementById("p1").style.color="green";
+        //     document.getElementById("p1").innerHTML+=pp+"<br>"
+        //    } else{
+        //     document.getElementById("p2").style.color="red";
+        //     document.getElementById("p2").innerHTML+=pp+"<br>"
+        //    }
+
+        // let vowels=["a","e","i","o","u"]
+
+        // let a=prompt("enter a number")
+        // for(let i of vowels){
+        //     if(a==i){
+        //         document.write("this is a vowels")
+        //         break
+        //     }else{
+        //         document.write("this is not a vowels")
+        //         break
+        //     }
+        // };
+
+        let btn=document.getElementById("btn");
+        
+        btn.onclick=()=>{
+            let a=document.getElementById("tx1").value;
+            let b=document.getElementById("tx2").value;
+            if(a>b){
+                btn.style.backgroundColor="green";
+            }else{
+                btn.style.backgroundColor="blue"
+            }
+        }
+
+
+
+
+      
+        
+      
+
+           
+            
+
+           
+            
+           
+    </script>
+   
+</body>
+</html>

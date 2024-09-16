@@ -1,0 +1,22 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: 3% auto;
+    padding: 20px;
+  }
+  #header {
+    font-size: 25px;
+    margin: 0 auto;
+  }
+  thead {
+    font-weight: bold;
+  }
+  #errMsg {
+    margin: 0 auto;
+    color: red;
+    font-size: 30px;
+  }
+  body {
+    text-align: center;
+  }

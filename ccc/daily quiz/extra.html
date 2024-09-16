@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function abc(){
+            var x=document.getElementById("d1").value;
+            document.getElementById("d2").innerHTML="my product name is:"+x;
+
+        }
+
+        function ABC(){
+            var i=document.getElementById("ip1").value;
+            var u=document.getElementById("ip2").value;
+            tot=parseInt(i)*parseInt(u);
+            document.getElementById("p1").innerHTML="total value is="+tot;
+        }
+    </script>
+</head>
+<body>
+   
+    <table>
+        <tr>
+            <th>product</th>
+            <th> 
+    <select id="d1" onchange="abc()">
+        <option>Mouse</option>
+        <option>CPU</option>
+        <option>RAM</option>
+        <option>ROM</option>
+        <option>Ball Pen</option>
+        </select>
+        
+        </th>
+        </tr>
+        <tr>
+            <th>
+
+    <p id="d2"></p>
+    
+    </th>
+    </tr>
+    <tr>
+        <th>price</th>
+        <th>
+
+   <select id="ip1">
+    <option>2000</option>
+    <option>3000</option>
+
+    <option>5000</option>
+    <option>7000</option>
+   </select>
+   </th>
+   </tr>
+   <br><br>
+   <tr>
+    <th>Qty</th>
+    <th>
+   <select id="ip2">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+   </select>
+   </th>
+   
+   </tr>
+
+   <br>
+   <tr>
+    <th>
+   <button onclick="ABC()">submit</button>
+   </th>
+   </tr>
+   <br>
+   <tr>
+    <th>
+   <p id="p1" ></p>
+   </th>
+   </tr>
+   </table>
+
+  
+
+    
+    
+    
+</body>
+</html>

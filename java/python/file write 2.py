@@ -1,0 +1,7 @@
+#f=open("ashab2.txt","w")
+#a=f.write("ashab bhai bhot acche hai")
+#print(a)
+#f.close()
+f=open("ashab2.txt","r+")
+print(f.read())
+f.write("thank you\n")

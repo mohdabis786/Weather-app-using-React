@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            background-color: grey;
+            
+        }
+        .my{
+            height:200px;
+            width:300px;
+            border:2px solid black;
+            margin-top: 290px;
+            background-color: cadetblue;
+        }
+
+        #m1{
+            height:30px;
+            width:250px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        #p1{
+            height:30px;
+            width:250px;
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        button{
+            height:30px;
+            width:120px;
+            margin-left: 60px;
+            background-color: rgb(0, 60, 255);
+            color:white;
+            margin-top: 5px;
+        }
+
+    </style>
+    <script>
+        function myfunc()
+        {
+            i=document.getElementById("m1").value;
+            u=document.getElementById("p1").value;
+            if(i=="Admin" && u=="Admin")
+            {
+
+
+                
+                
+                alert("welcome to my dashboard");
+
+            }
+            else{
+                alert("please check your id and pass")
+            }
+        }
+    </script>
+</head>
+<body>
+    <div class="my">
+        <input type="text" placeholder="enter user name" id="m1">
+        <br><br>
+        <input type="password" placeholder="enter your pass" id="p1">
+        <br><br>
+        <button onclick="myfunc()">Log IN</button>
+    </div>
+    
+</body>
+</html>

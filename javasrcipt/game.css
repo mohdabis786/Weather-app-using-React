@@ -1,0 +1,46 @@
+.container{
+    height:690px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    text-align: center;
+    background-color: #A0AECD;
+}
+.boxes{
+    height:600px;
+    
+    width: 600px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box{
+    height:180px;
+    width:180px;
+    border-radius: 18px;
+    gap:1.8vmin;
+    border: none;
+    margin:5px;
+    font-size: 100px;
+    background-color: rgba(255, 105, 180, 0.696);
+
+
+}
+#p1{
+    font-size: 40px;
+    color:black;
+
+}
+#click{
+    height:45px;
+    width:130px;
+    border-radius: 12px;
+    border:none;
+    background-color:rgb(37, 181, 18);
+    color:white;
+
+}

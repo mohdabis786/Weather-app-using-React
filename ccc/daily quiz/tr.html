@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       button{
+        height:40px;
+        width:120px;
+        background-color: rgb(94, 255, 0);
+       }
+      span{
+        display: none;
+        z-index: 1;
+      }
+      button:hover span{
+        display: inline-block;
+      }
+      button:hover {
+        font-size: 40px;
+        width:500px;
+        height: 100px;
+        transition-property: width,height,font-size,span;
+        transition-duration: 4s;
+      }
+      h1{
+        opacity: 0.1;
+      }
+      
+   
+         
+    </style>
+</head>
+<body>
+    <button>Skip <span>></span></button>
+
+    <h1>welcome</h1>
+   
+    
+    
+</body>
+</html>
